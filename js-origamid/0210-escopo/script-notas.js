@@ -43,3 +43,4 @@ const data = {
 
 data.ano = 2019;
 data.dia = 25;
+data.mes = "marco";

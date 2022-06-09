@@ -7,10 +7,12 @@ console.log(scroll);
 // Atribua true para a variável darCredito,
 // caso o cliente possua carro e casa.
 // E false caso o contrário.
-var possuiCarro = true;
-var possuiCasa = true;
-var darCredito;
+var casa = false;
+var carro = true;
 
-darCredito = (possuiCarro && possuiCasa);
-darCredito = (possuiCarro && possuiCasa) ? 'Dar crédito ao cliente' : 'Negar crédito';
-console.log(darCredito)
+var darCredito = (casa && carro);
+
+if(darCredito)
+  console.log("credito liberado")
+else
+  console.log("credito não liberado")
