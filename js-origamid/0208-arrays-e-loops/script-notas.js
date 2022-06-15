@@ -38,3 +38,6 @@ videoGames.forEach(function(item) {
  console.log(item);
 });
 // Forma mais simples de trabalhar com array e loops
+
+
+const arrayGrid = Array.from(gridSectionHTML); // converte um arrayLike em um array real
