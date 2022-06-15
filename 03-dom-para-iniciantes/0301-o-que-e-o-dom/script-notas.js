@@ -13,7 +13,7 @@ function confere(){
 /////////////////////////////////////////////
 const h1Selecionado = document.querySelector('h1');
 const h2Selecionado = document.querySelector('h2');
-
+var h1Classe = h1Selecionado.classList;
 function callbackH1(){  
   console.log('Clicou em' , h1Selecionado.innerText );
 }
