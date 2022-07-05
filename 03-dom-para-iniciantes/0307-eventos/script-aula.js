@@ -44,9 +44,10 @@ function handleKeyboard(event) {
   if(event.key === 'a') {
     document.body.classList.toggle('azul');
   }
+  console.log(event.key)
 }
 
-window.addEventListener('keydown', handleKeyboard);
+// window.addEventListener('keydown', handleKeyboard);
 
 const imgs = document.querySelectorAll('img');
 
