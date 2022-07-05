@@ -6,11 +6,11 @@ function callback(event) {
 
 // img.addEventListener('click', callback);
 
-const animaisLista = document.querySelector('.animais-lista');
+// const animaisLista = document.querySelector('.animais-lista');
 
 function callbackLista(event) {
-  console.log(event.currentTarget);
-  console.log(event.target);
+  // console.log(event.currentTarget);
+  // console.log(event.target);
   console.log(event.type);
 }
 
@@ -21,11 +21,11 @@ const linkExterno = document.querySelector('a[href^="http"]');
 function handleLinkExterno(event) {
   event.preventDefault();
   // console.log(event);
-  console.log(this.getAttribute('href'));
-  console.log(event.currentTarget);
+  // console.log(this.getAttribute('href'));
+  // console.log(event.currentTarget);
 }
 
-linkExterno.addEventListener('click', handleLinkExterno);
+// linkExterno.addEventListener('click', handleLinkExterno);
 
 const h1 = document.querySelector('h1');
 
